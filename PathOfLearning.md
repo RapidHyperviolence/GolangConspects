@@ -17,4 +17,5 @@
 ```
 New-Item -Path . -Name "ИмяФайла.go" -ItemType "file"
 ```
++ 
 ---
