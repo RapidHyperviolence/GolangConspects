@@ -15,6 +15,6 @@
 + Научился получать доступ к символу строки и соединять строки
 + Быстро создаю файлы в директории с помощью команды:
 ```
-New-Item -Path . -Name "GoLessonVariable.go" -ItemType "file"
+New-Item -Path . -Name "ИмяФайла.go" -ItemType "file"
 ```
 ---
