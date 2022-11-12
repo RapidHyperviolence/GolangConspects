@@ -32,4 +32,27 @@ func f() {
 //поэтому при выполнении программы я получу ошибку,
 //Так как пытался вызвать x в функции f
 ```
++ Разобрался с переменными в Golang
++ Узнал, что В Golang всего один цикл - for, разобрался с оператором if, else if и switch
++ Важно! Switch может быть записан без выражения.
++```
+//Вот пример:
+//Switch с выражениями:
+switch i {
+case 0: fmt.Println("Zero")
+case 1: fmt.Println("One")
+case 2: fmt.Println("Two")
+case 3: fmt.Println("Three")
+case 4: fmt.Println("Four")
+case 5: fmt.Println("Five")
+default: fmt.Println("Unknown Number")
+}
+//Без них:
+  switch {
+    case i % 3 == 0 && i % 5 == 0: fmt.Println(i, "FizzBuzz")
+    case i % 3 == 0: fmt.Println(i, "Fizz")
+    case i % 5 == 0: fmt.Println(i, "Buzz")
+    default: fmt.Println("")
+}
+```
 ---
